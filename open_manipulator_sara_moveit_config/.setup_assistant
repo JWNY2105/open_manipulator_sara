@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: open_manipulator_sara_description
+    relative_path: urdf/open_manipulator_sara_robot.urdf.xacro
+  SRDF:
+    relative_path: config/open_manipulator_sara.srdf
+  CONFIG:
+    author_name: jwson
+    author_email: jwson@robotis.com
+    generated_timestamp: 1712937600
