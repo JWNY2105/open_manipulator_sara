@@ -242,19 +242,16 @@
         <param name="Return Delay Time">0</param>
       </gpio>
 
-      <!-- Gripper motor (current-based position control) -->
+      <!-- Gripper motor -->
       <gpio name="dxl7">
         <param name="type">dxl</param>
         <param name="ID">17</param>
         <command_interface name="Goal Position"/>
-        <command_interface name="Goal Current"/>
         <state_interface name="Present Position"/>
         <state_interface name="Present Velocity"/>
         <state_interface name="Present Current"/>
         <state_interface name="Torque Enable"/>
         <state_interface name="Present Input Voltage"/>
-        <param name="Operating Mode">5</param>
-        <param name="Goal Current">300</param>
         <param name="Return Delay Time">0</param>
       </gpio>
 
